@@ -1,0 +1,45 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore dataset files
+content/
+*.csv
+*.tsv
+*.json
+*.xml
+*.xls*
+*.parquet
+*.hdf5
+*.sqlite
+*.db
+
+# Ignore model weights and large files
+*.h5
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.joblib
+*.pkl
+*.ckpt
+
+# Ignore log files
+logs/
+*.log
+*.out
+*.err
+
+# Ignore temporary and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+.DS_Store
+
+# Ignore VSCode and Jupyter artifacts
+.vscode/
+.jupyter/
